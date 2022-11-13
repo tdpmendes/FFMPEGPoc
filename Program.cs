@@ -24,7 +24,7 @@ namespace FFMPEGPoc
                 lines.Add(String.Format(cmdTemplate, file.Name, file.Name.Split('.')[0] + ".mp3"));
             }
 
-            await File.WriteAllLinesAsync("Output\\command.txt",lines,CancellationToken.None);
+            await File.WriteAllLinesAsync("Runner.bat",lines,CancellationToken.None);
             
         }
     }
