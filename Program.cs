@@ -26,7 +26,7 @@ namespace FFMPEGPoc
 
             foreach (var file in files)
             {
-                if (file.Name.Split('.')[0].Length > 2) throw new ApplicationException("File Name Contains '.' please rename this file and try again: "+file.Name);
+                if (file.Name.Split('.').Length > 2) throw new ApplicationException("File Name Contains '.' please rename this file and try again: "+file.Name);
                 var command = String.Format(cmdTemplate, file.Name, file.Name.Split('.')[0] + ".mp3");
                 cli.StandardInput.WriteLine(command);
             }
