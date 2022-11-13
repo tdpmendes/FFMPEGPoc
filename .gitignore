@@ -3,3 +3,9 @@
 ################################################################################
 
 /bin/Release/netcoreapp3.1
+/obj
+/Properties/PublishProfiles
+/bin/Debug/netcoreapp3.1
+/.vs/FFMPEGPoc
+/Input/Jamiroquai - Space Cowboy (David Morales Classic Club Remix) [Audio].mkv
+/Input/Jamiroquai - Space Cowboy (David Morales Classic Club Remix) [Audio].mkv
